@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5B268F715756E3100F6A72D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B268F615756E3100F6A72D /* Foundation.framework */; };
+		B5B268FA15756E3100F6A72D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B268F915756E3100F6A72D /* main.m */; };
+		B5B268FE15756E3100F6A72D /* Ch26challenge.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B5B268FD15756E3100F6A72D /* Ch26challenge.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B5B268F015756E3100F6A72D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				B5B268FE15756E3100F6A72D /* Ch26challenge.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B5B268F215756E3100F6A72D /* Ch26challenge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Ch26challenge; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5B268F615756E3100F6A72D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B5B268F915756E3100F6A72D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5B268FC15756E3100F6A72D /* Ch26challenge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ch26challenge-Prefix.pch"; sourceTree = "<group>"; };
+		B5B268FD15756E3100F6A72D /* Ch26challenge.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Ch26challenge.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5B268EF15756E3100F6A72D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B268F715756E3100F6A72D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5B268E715756E3100F6A72D = {
+			isa = PBXGroup;
+			children = (
+				B5B268F815756E3100F6A72D /* Ch26challenge */,
+				B5B268F515756E3100F6A72D /* Frameworks */,
+				B5B268F315756E3100F6A72D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5B268F315756E3100F6A72D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5B268F215756E3100F6A72D /* Ch26challenge */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5B268F515756E3100F6A72D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5B268F615756E3100F6A72D /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5B268F815756E3100F6A72D /* Ch26challenge */ = {
+			isa = PBXGroup;
+			children = (
+				B5B268F915756E3100F6A72D /* main.m */,
+				B5B268FD15756E3100F6A72D /* Ch26challenge.1 */,
+				B5B268FB15756E3100F6A72D /* Supporting Files */,
+			);
+			path = Ch26challenge;
+			sourceTree = "<group>";
+		};
+		B5B268FB15756E3100F6A72D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5B268FC15756E3100F6A72D /* Ch26challenge-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5B268F115756E3100F6A72D /* Ch26challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5B2690115756E3100F6A72D /* Build configuration list for PBXNativeTarget "Ch26challenge" */;
+			buildPhases = (
+				B5B268EE15756E3100F6A72D /* Sources */,
+				B5B268EF15756E3100F6A72D /* Frameworks */,
+				B5B268F015756E3100F6A72D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ch26challenge;
+			productName = Ch26challenge;
+			productReference = B5B268F215756E3100F6A72D /* Ch26challenge */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5B268E915756E3100F6A72D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B5B268EC15756E3100F6A72D /* Build configuration list for PBXProject "Ch26challenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5B268E715756E3100F6A72D;
+			productRefGroup = B5B268F315756E3100F6A72D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5B268F115756E3100F6A72D /* Ch26challenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5B268EE15756E3100F6A72D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B268FA15756E3100F6A72D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B5B268FF15756E3100F6A72D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B5B2690015756E3100F6A72D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B5B2690215756E3100F6A72D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ch26challenge/Ch26challenge-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B5B2690315756E3100F6A72D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ch26challenge/Ch26challenge-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5B268EC15756E3100F6A72D /* Build configuration list for PBXProject "Ch26challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B268FF15756E3100F6A72D /* Debug */,
+				B5B2690015756E3100F6A72D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5B2690115756E3100F6A72D /* Build configuration list for PBXNativeTarget "Ch26challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B2690215756E3100F6A72D /* Debug */,
+				B5B2690315756E3100F6A72D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5B268E915756E3100F6A72D /* Project object */;
+}
